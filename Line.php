@@ -1,6 +1,6 @@
 <?php
 
-namespace antishov\Morris;
+namespace sirgalas\Morris;
 
 use yii\helpers\ArrayHelper;
 

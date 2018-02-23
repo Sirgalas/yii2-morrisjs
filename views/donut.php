@@ -23,5 +23,5 @@ if(!$hideHover)
     resize   : '{$resize}',
     colors   : {$donutColorJson},
     data     : {$dataJson},
-    hideHover: '{$hideHover}'
+    hideHover: {$hideHover}
   });");

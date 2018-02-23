@@ -19,9 +19,10 @@ if(!$hideHover)
 
 <div id="<?= $element ?>"></div>
 <?php $this->registerJs("window.{$element} = Morris.{$constructor}({
-    element: '{$element}',
+     element: '{$element}',
     resize   : '{$resize}',
     colors   : {$donutColorJson},
     data     : {$dataJson},
-    hideHover: {$hideHover}
+    hideHover: '{$hideHover}',
+    formatter: {$formatter}
   });");

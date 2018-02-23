@@ -1,7 +1,13 @@
- public $donutColor;
+<?php
+namespace sirgalas\Morris;
+
+use yii\helpers\ArrayHelper;
+
+class Donut extends Base
+{
+    public $donutColor;
     public $formatter;
     protected $type = 'Donut';
-
     protected function getViewOptions()
     {
         $viewOptions = parent::getViewOptions();
@@ -11,3 +17,4 @@
         ]);
         return $viewOptions;
     }
+}
